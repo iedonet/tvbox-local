@@ -337,34 +337,6 @@
       "changeable": 1,
       "ext": "AppV7Xhr"
     },
-        
-        
-        {
-      "key": "cat_旺旺网",
-      "name": "☀旺旺🔹视频",
-      "type": 3,
-      "api": "./js/旺旺.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "changeable": 1
-    },
-          
-          
-                  
-    
-            {
-            "key": "cat_优夏网",
-            "name": "☀游侠🔹视频",
-            "type": 3,
-            "api": "./js/优夏.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
           
                
     
@@ -442,20 +414,6 @@
             "playerType": 2
         },
 
-
-    
-            {
-            "key": "cat_骚火",
-            "name": "☀骚火🔹视频",
-            "type": 3,
-            "api": "./js/cat_骚火.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-
     
 
 
@@ -468,16 +426,6 @@
       "playerType": 2,
       "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-    },
-
-    {
-      "key": "360_spider",
-      "name": "☀三六🔹视频",
-      "type": 3,
-      "api": "csp_SP360",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1
     },
 
     
@@ -626,19 +574,6 @@
         "反转爽剧"
       ]
     },
-   {"key":"腾腾" ,      
-   "name":"☀腾翼🔹天翔",      
-   "type":3,            
-         "jar": "./lib/jp.png",   
-   "api":"./js/drpy2.min.js",      
-   "ext":"./js/腾腾.js"},
-      
-   {"key":"奇奇",      
-   "name":"☀爱在🔹心意",      
-   "type":3,            
-         "jar": "./lib/jp.png",   
-   "api":"./js/drpy2.min.js",      
-   "ext":"./js/奇奇.js"},   
    
    {"key":"果果",      
    "name":"☀茫茫🔹人海",      
@@ -646,14 +581,6 @@
            "jar": "./lib/jp.png",    
    "api":"./js/drpy2.min.js",      
    "ext":"./js/果果.js"},
-   
-   
-   {"key":"酷酷",      
-   "name":"☀悠悠🔹岁月",      
-   "type":3,            
-         "jar": "./lib/jp.png",   
-   "api":"./js/drpy2.min.js",      
-   "ext":"./js/酷酷.js"},
    
    
   
