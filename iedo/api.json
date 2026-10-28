@@ -40,20 +40,6 @@
             "api": "csp_LocalFile"
         },
         
-                               
-            {
-            "key": "Aid",
-            "name": "🚑急救🔹知识",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            }
-        },
-        
         
             {
       "key": "csp_Kugou",
@@ -76,17 +62,6 @@
       "name": "🥇央视🔹大全",
       "type": 3,
       "api": "./py/央库云.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "央视影视",
-      "name": "🥇央视🔹栏目",
-      "type": 3,
-      "api": "./py/央视影视.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -365,17 +340,6 @@
             },
             "changeable": 1
         },
-        
-
-    {
-      "key": "1905",
-      "name": "☀1905🔹影视",
-      "type": 3,
-      "api": "csp_Web1905",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
         
 
             {
@@ -699,42 +663,6 @@
                 "ratio": 1.597
             }
         },
-
-{
-            "key": "cat体育聚合",
-            "name": "⚽聚合🔹球赛",
-            "type": 3,
-            "api": "./js/体育聚合.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-        {
-            "key": "py_咖啡直播",
-            "name": "⚽咖啡🔹球赛",
-            "type": 3,
-            "api": "./py/咖啡直播.py",
-            "style": {
-                "type": "list"
-            },
-            "quickSearch": 0,
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "cat蜘蛛体育",
-            "name": "⚽蜘蛛🔹球赛",
-            "type": 3,
-            "api": "./js/蜘蛛体育.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-            
 
     {
       "key": "cc",
