@@ -1,5 +1,5 @@
 {
-  "spider": "https://tv.iedo.net.cn/adult/custom_spider.jar;md5;a392ca741d7598a3c2fb96a860ddd38a",
+  "spider": "./custom_spider.jar;md5;a392ca741d7598a3c2fb96a860ddd38a",
   "sites": [
     {
       "key": "zp059",
