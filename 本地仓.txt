@@ -1,1 +1,11 @@
-{ "urls": [{ "url": "clan://localhost/tvboxTW/iedo/api.json", "name": "依朵科技" }]}
+{ 
+
+"urls": [
+
+{ "url": "./iedo/api.json", "name": "【依朵影视】" },
+
+{ "url":"./adult/18sexN.json", "name": "【ADULT】" }
+
+]
+
+}
