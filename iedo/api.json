@@ -1,5 +1,5 @@
 {
-  "spider": "./kjtw.jar",
+  "spider": "./lib/kjtw.jar",
   "logo": "./dong.gif",
   "warningText": "声明：资源来自网络，测试之后请自行删除]",
   "sites": [
