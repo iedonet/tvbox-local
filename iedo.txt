@@ -2,9 +2,9 @@
 
 "urls": [
 
-{ "url": "./iedo/api.json", "name": "【依朵影视】" },
+{ "url": "https://gh-proxy.com/https://raw.githubusercontent.com/iedonet/tvbox-local/refs/heads/main/iedo/api.json", "name": "【依朵影视】" },
 
-{ "url":"./adult/18sexN.json", "name": "【ADULT】" }
+{ "url":"https://gh-proxy.com/https://raw.githubusercontent.com/iedonet/tvbox-local/refs/heads/main/adult/18sexN.json", "name": "【ADULT】" }
 
 ]
 
