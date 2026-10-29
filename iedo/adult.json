@@ -74,14 +74,7 @@
       "searchable": 1,
       "filterable": 1
     },
-    {
-      "key": "91.com",
-      "name": "💕91麻豆(直连)",
-      "type": 1,
-      "api": "http://91md.me/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
+    
     {
       "key": "jp.com",
       "name": "💕精品(直连)",
