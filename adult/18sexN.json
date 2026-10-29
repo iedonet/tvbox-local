@@ -105,14 +105,6 @@
       "api": "http://madouse.la/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1
-    },
-    {
-      "key": "xne",
-      "name": "*香奶儿资源",
-      "type": 0,
-      "api": "https://www.gdlsp.com/api/xml.php",
-      "searchable": 0,
-      "quickSearch": 0
     }
   ],
   "parses": [
