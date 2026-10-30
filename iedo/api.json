@@ -440,7 +440,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./js/bili.json"
+      "ext": "./js/依朵哔哔.json"
     },
     {
       "key": "Bili",
@@ -455,7 +455,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./js/依朵哔哔.json"
+        "json": "./js/bili.json"
       }
     },
     {
