@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/spider.jar",
+  "spider": "./lib/spider.jar;md5;a4638e7ba814dd552472501335ecdc47",
   "warningText": "声明：资源来自网络，测试之后请自行删除]",
   "sites": [
     {
@@ -104,15 +104,6 @@
       "类型": "影视"
     },
     {
-      "key": "农民影视",
-      "name": "☀农民🔹秒播",
-      "type": 3,
-      "api": "csp_Wwys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://vip.wwgz.cn:5200"
-    },
-    {
       "key": "好好看",
       "name": "☀好看🔹秒播",
       "type": 3,
@@ -174,16 +165,6 @@
         "港台动漫",
         "动画片"
       ]
-    },
-    {
-      "key": "农民影拭",
-      "name": "☀农民🔹影拭",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/农民影视.json"
     },
     {
       "key": "cat_非凡网",
