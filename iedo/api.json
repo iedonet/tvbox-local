@@ -524,7 +524,7 @@
       }
     }
   ],
-  "wallpaper": "https://t.alcy.cc/acg",
+  "wallpaper": "https://uapis.cn/api/v1/random/image?category=landscape",
   "lives": [
     {
       "name": "线路1",
