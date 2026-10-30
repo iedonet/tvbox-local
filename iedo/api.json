@@ -2,13 +2,6 @@
   "spider": "./lib/spider.jar",
   "warningText": "声明：资源来自网络，测试之后请自行删除]",
   "sites": [
-    {
-      "key": "本地",
-      "name": "📁本地🔹文件",
-      "type": 3,
-      "api": "csp_LocalFile",
-      "indexs": 1
-    }
   ],
   "wallpaper": "https://uapis.cn/api/v1/random/image?category=landscape",
   "lives": [
