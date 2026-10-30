@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/spider.jar;md5;a4638e7ba814dd552472501335ecdc47",
+  "spider": "./lib/spider.jar",
   "warningText": "声明：资源来自网络，测试之后请自行删除]",
   "sites": [
     {
