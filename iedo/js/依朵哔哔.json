@@ -1,6 +1,5 @@
 {
   "class": [
-    { "type_name": "登陆配置", "type_id": "peizhi" },
 	{ "type_name": "解说", "type_id": "解说" },
 	{ "type_name": "知名UP主", "type_id": "知名UP主" },
 	{ "type_name": "演唱会", "type_id": "演唱会超清" },
