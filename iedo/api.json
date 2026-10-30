@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/spider.jar",
+  "spider": "./lib/kjtw.jar",
   "warningText": "声明：资源来自网络，测试之后请自行删除]",
   "sites": [
     {
