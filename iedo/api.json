@@ -1,16 +1,13 @@
 {
-  "spider": "./lib/kjtw.jar",
+  "spider": "./lib/spider.jar",
   "warningText": "声明：资源来自网络，测试之后请自行删除]",
   "sites": [
     {
-      "name": "☀豆瓣🔹推荐",
-      "key": "Douban",
+      "key": "本地",
+      "name": "📁本地🔹文件",
       "type": 3,
-      "api": "csp_Douban",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      "api": "csp_LocalFile",
+      "indexs": 1
     },
     {
       "key": "配置中心",
@@ -24,12 +21,7 @@
         "ratio": 1.597
       }
     },
-    {
-      "key": "本地",
-      "name": "📁本地🔹文件",
-      "type": 3,
-      "api": "csp_LocalFile"
-    },
+   
     {
       "key": "csp_Kugou",
       "name": "🎤某狗🔹音乐",
