@@ -45,7 +45,7 @@
       "name": "🎤某狗🔹音乐",
       "type": 3,
       "api": "csp_Kugou",
-      "jar": "https://raw.giteeusercontent.com/twvip/jarR/raw/master/KG.jar",
+      "jar": "./lib/KG.jar",
       "playerType": 2,
       "ext": {
         "classes": [
@@ -580,16 +580,7 @@
                 "type": "rect",
                 "ratio": 1.597
             }
-        },
-
-    {
-      "key": "cc",
-      "name": "🚫请勿相信视频中任何广告",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0
-    }
+        }
   ],
   
     "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
