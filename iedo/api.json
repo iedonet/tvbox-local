@@ -506,8 +506,8 @@
 		"searchable": 1,
 		"quickSearch": 0,
 		"changeable": 0,
-		"jar": "./jar/fan.txt",
-		"ext": {"json": "./json/依朵哔哔.json"}
+		"jar": "./lib/fan.txt",
+		"ext": {"json": "./js/依朵哔哔.json"}
 	},
 
     
