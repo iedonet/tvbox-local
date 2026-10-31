@@ -3,7 +3,7 @@
   "warningText": "[声明：资源来自网络，测试之后请自行删除]",
   "sites": [
     {
-      "name": "依朵科技",
+      "name": "📺依朵科技",
       "key": "Douban",
       "type": 3,
       "api": "csp_Douban",
