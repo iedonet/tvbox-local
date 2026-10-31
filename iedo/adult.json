@@ -1,6 +1,13 @@
 {
   "sites": [
-    
+    {
+      "key": "fanhaozy.com",
+      "name": "💕番号资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "filterable": 1
+    },
     {
       "key": "lebozy.com",
       "name": "💕乐播(直连)",
