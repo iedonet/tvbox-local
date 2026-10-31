@@ -45,7 +45,7 @@
         ]
       }
     },
-     {"key": "咕噜","name": "咕噜 • APP","type": 3,"api": "csp_Gulu","searchable": 1,"quickSearch": 1,"filterable": 1},
+    
     {
       "key": "央库云",
       "name": "🥇央视🔹大全",
@@ -263,6 +263,9 @@
         "反转爽剧"
       ]
     },
+
+    {"key": "咕噜","name": "📱咕噜 • APP","type": 3,"api": "csp_Gulu","searchable": 1,"quickSearch": 1,"filterable": 1},
+    
     {
       "key": "Cat_聚合短剧",
       "name": "🎦聚合🔹短剧",
