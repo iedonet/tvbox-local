@@ -1,5 +1,14 @@
 {
   "sites": [
+    
+    {
+      "key": "lebozy.com",
+      "name": "💕乐播(直连)",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1
+    },
     {
       "key": "155zy.com",
       "name": "♥155(直连)",
@@ -13,14 +22,6 @@
       "name": "💕jkun(直连)",
       "type": 1,
       "api": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "lebozy.com",
-      "name": "💕乐播(直连)",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1
     },
@@ -65,14 +66,6 @@
       "filterable": 1
     },
     {
-      "key": "lj.com",
-      "name": "💕辣椒(直连)",
-      "type": 1,
-      "api": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "jp.com",
       "name": "💕精品(直连)",
       "type": 1,
@@ -87,14 +80,6 @@
       "api": "http://madouse.la/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1
-    },
-    {
-      "key": "xiangnaier",
-      "name": "*香奶儿资源",
-      "type": 0,
-      "api": "https://www.gdlsp.com/api/xml.php",
-      "searchable": 0,
-      "quickSearch": 0
     }
   ],
   "parses": [
