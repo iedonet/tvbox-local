@@ -4,16 +4,27 @@ export default {
     const userAgent = request.headers.get("User-Agent") || "";
     const isBrowser = userAgent.includes("Mozilla");
 
-    // 只对根路径做分流
+    // 只处理根路径
     if (url.pathname === "/" || url.pathname === "") {
       if (isBrowser) {
         return env.ASSETS.fetch(new Request(new URL("/index.html", request.url)));
       }
-      // TVBox 请求根路径时，302 重定向到 api.json 的完整地址
-      return Response.redirect(new URL("/iedo/api.json", request.url).toString(), 302);
+
+      // TVBox 请求根路径：取 api.json，替换路径后返回
+      const apiResponse = await env.ASSETS.fetch(
+        new Request(new URL("/iedo/api.json", request.url))
+      );
+      let jsonText = await apiResponse.text();
+      // 把 "./" 替换成 "/iedo/"，让路径与根路径基址兼容
+      jsonText = jsonText.replace(/"\.\//g, '"/iedo/');
+
+      return new Response(jsonText, {
+        status: 200,
+        headers: { "Content-Type": "application/json;charset=UTF-8" },
+      });
     }
 
-    // 其他所有路径（spider.jar、js、py 等）直接交给静态资源
+    // 其他路径（jar、js 等）原样返回静态资源
     return env.ASSETS.fetch(request);
   },
 };
