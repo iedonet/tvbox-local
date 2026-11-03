@@ -1,15 +1,18 @@
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
     const userAgent = request.headers.get("User-Agent") || "";
-    // TVBox 客户端通常带 okhttp 标识，浏览器带 Mozilla
     const isBrowser = userAgent.includes("Mozilla");
 
-    if (isBrowser) {
-      // 浏览器：返回 public/index.html 那个伪装页面
-      return env.ASSETS.fetch(new Request(new URL("/index.html", request.url)));
+    // 只对根路径做分流
+    if (url.pathname === "/" || url.pathname === "") {
+      if (isBrowser) {
+        return env.ASSETS.fetch(new Request(new URL("/index.html", request.url)));
+      }
+      return env.ASSETS.fetch(new Request(new URL("/iedo/api.json", request.url)));
     }
 
-    // 非浏览器（大概率是 TVBox）：返回真正的 api.json
-    return env.ASSETS.fetch(new Request(new URL("/iedo/api.json", request.url)));
+    // 其他所有路径（包括 spider.jar、js 文件、py 文件）直接交给静态资源
+    return env.ASSETS.fetch(request);
   },
 };
