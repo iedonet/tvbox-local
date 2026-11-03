@@ -10,6 +10,6 @@ export default {
     }
 
     // 非浏览器（大概率是 TVBox）：返回真正的 api.json
-    return env.ASSETS.fetch(new Request(new URL("/api.json", request.url)));
+    return env.ASSETS.fetch(new Request(new URL("/iedo/api.json", request.url)));
   },
 };
